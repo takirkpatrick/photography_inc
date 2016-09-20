@@ -1,4 +1,44 @@
+
+
+h1
+{
+    color: #C03000;
+    font-size: 50px;
+    font-family: algerian, serif;
+    text-align: center
+}
+
 body
 {
-    background: #4D253F; 
+    background: #787746; 
 }
+
+p
+{
+    background: #B4AF91;
+    color: #000000;
+    padding: 20px
+}
+
+nav ul
+{
+    list-style-type: none;
+    margin: 0px;    
+    padding: 20px;
+    font-family: arial, sans-serif;
+    overflow: hidden;
+    background: #B4AF91;
+}
+
+nav ul a
+{
+    color: #C03000;
+    font-family: algerian, serif;
+}
+
+nav ul a:hover
+{
+    background-color: #32331D
+}
+
+<!--https://color.adobe.com/Orange-on-olive-color-theme-2227/?showPublished=true -->
