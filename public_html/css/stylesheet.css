@@ -1,5 +1,6 @@
 <!-- I claim this file in the name of Tyler Godfrey. -->
 
+/* tag */
 h1 {
     font-family: Gadugi, sans-serif;
     text-align: center;
@@ -10,14 +11,63 @@ h1 {
 body {
     font-family: Arial, sans-serif;
     text-align: left;
-    font-size: 16px;
+    font-size: 14px;
     }
     
 a {
     font-family: Gadugi, sans-serif;
-    font-size: 16px;
+    font-size: 14px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 14px;
+    overflow: hidden;
+    background-color: #000;
+    font-family: Gadugi, sans-serif;
+}
+
+nav li {
+    float: left;
+    padding: 4px;
+    color: #FFF;
+}
+
+nav li a {
+    float: left;
+    padding: 4px;
+    color: #FFF;
+}
+
+nav li a hover {
+    float: left;
+    padding: 4px;
+    color: #777;
+    background-color: #EEE;
 }
 
 header {
     background-color: #931a2a;
     background-image: url("../img/Camera.png")
+}
+
+/* id */
+#camera {
+    display: block;
+    margin: auto;
+    width: 12%;
+    
+}
+
+/* class */
+.menu {
+    font-size: 16px;
+    font-family: Gadugi, sans-serif;
+    display: block;
+    text-align: center;
+    padding: 0px 0px;
+    text-decoration: none;
+    
+
+}
