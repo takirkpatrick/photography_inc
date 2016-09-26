@@ -17,7 +17,13 @@ p
 {
     background: #B4AF91;
     color: #000000;
-    padding: 20px
+    padding: 20px;
+}
+
+ul
+{
+	background: #B4AF91;
+	margin-left: 15px;
 }
 
 nav ul
@@ -50,10 +56,31 @@ img
     margin: 5px;
 }
 
-table, th, td {
+.rule_of_thirds_table
+{
     border-style: dashed;
     border-width: 5px;
     padding: 5px;
     margin: 5px;
     text-align: center;
+    font-size: 35px;
+}
+	
+#camera_table
+{
+	border-collapse: collapse;
+	margin: 10px;
+}
+
+#camera_table,
+#camera_table_head,
+#camera_table_body
+{
+	border: 5px solid black;
+}
+
+footer
+{
+	padding: 10px;
+	font-style: italic;
 }
