@@ -5,33 +5,42 @@
     <head>
         <meta charset="utf-8">
         <title> Photography Inc.  </title>
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="custom.css">
+        
+        <style>
+        .below_menu_container
+         {
+            padding-top: 75px;
+         }
+        </style>
+        
     </head>
     
     <body>
-
-	<p>
-			
-	</p>
-    
-        <h1> Photography Inc.</h1>    
-
-	<p>
-			
-	</p>
-
-        <img src="img/camera.png" alt="Camera" />
-        <img src="img/graffiti_art.png" alt="Graffiti Art" width=300 height=245 />
-        <img src="img/sculpture.jpg" alt="Sculpture" width=300 height=245 />
-        <img src="img/beautiful_bushes.jpg" alt="Beautiful Bushes" width=300 height=245 />
-        <img src="img/dog.jpg" alt="Handsome Dog" width=300 height=245 />
-        <img src="img/mountain.jpeg" alt="Mountain" width=300 height=245 />
-    
-        <p>
-            We value photography as an art, and welcome the opportunity to pass on skills to beginner and novice photographers. 
-        </p>
         
-        <nav>
-            <ul>
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+
+              <a class="navbar-brand" href="#">Menu</a>
+            </div>
+
+            <div id="navbar" class="collapse navbar-collapse">
+              <ul class="nav navbar-nav">
                 <li> <a href= "index.html"> Home </a> </li>
                 <li> <a href= "about_us.html"> About Us </a> </li>
                 <li> <a href= "camera_tutorials.html"> Camera Tutorials </a> </li>
@@ -40,10 +49,95 @@
                 <li> <a href= "rule_of_thirds.html"> Rule of Thirds </a> </li>
                 <li> <a href= "sign_up.html"> Sign Up </a> </li>
                 <li> <a href= "log_in.html"> Log In </a> </li>
-            </ul>
+              </ul>
+            </div>
+          </div>
         </nav>
+    
+        <div class="container">
+            <div class="below_menu_container">
+            
+                
+               <p>
+			
+               </p>
+               
+    
+                   <h1 class="jumbotron"> Photography Inc.</h1>    
+
+               <p>
+			
+               </p>
+            
+                <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                  <!-- Indicators -->
+                  <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                    <li data-target="#myCarousel" data-slide-to="3"></li>
+                    <li data-target="#myCarousel" data-slide-to="4"></li>
+                    <li data-target="#myCarousel" data-slide-to="5"></li>
+                  </ol>
+
+                  <!-- Wrapper for slides -->
+                  <div class="carousel-inner" role="listbox">
+                    <div class="item active">
+                      <img src="img/camera.png" alt="Camera">
+                    </div>
+
+                    <div class="item">
+                      <img src="img/graffiti_art.png" alt="Graffiti Art" width=1000 height=245>
+                    </div>
+
+                    <div class="item">
+                      <img src="img/sculpture.jpg" alt="Sculpture" width=600 height=245>
+                    </div>
+
+                    <div class="item">
+                      <img src="img/beautiful_bushes.jpg" alt="Beautiful Bushes" width=600 height=245>
+                    </div>
+                    
+                    <div class="item">
+                      <img src="img/dog.jpg" alt="Handsome Dog" width=600 height=245>
+                    </div>
+                    
+                    <div class="item">
+                      <img src="img/mountain.jpeg" alt="Mountain" width=600 height=245>
+                    </div>
+                    
+                  </div>
+
+                  <!-- Left and right controls -->
+                  <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                  </a>
+                  <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                  </a>
+                </div>
+
+                <img src="img/camera.png" alt="Camera" />
+                <img src="img/graffiti_art.png" alt="Graffiti Art" width=300 height=245 />
+                <img src="img/sculpture.jpg" alt="Sculpture" width=300 height=245 />
+                <img src="img/beautiful_bushes.jpg" alt="Beautiful Bushes" width=300 height=245 />
+                <img src="img/dog.jpg" alt="Handsome Dog" width=300 height=245 />
+                <img src="img/mountain.jpeg" alt="Mountain" width=300 height=245 />
+    
+                <p>
+                    We value photography as an art, and welcome the opportunity to pass on skills to beginner and novice photographers. 
+                </p>
+                
+            </div>
+        </div>
+	
         
         <footer> &copy; Copyright 2016, Ashtyne Madsen &amp; Kyann Brown </footer>
+        
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     
     </body>
     
