@@ -5,6 +5,11 @@
     <head>
         <meta charset="utf-8">
         <title> Sign Up - Photography Inc.  </title>
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="custom.css">
     </head>
     
     <body>
@@ -12,14 +17,51 @@
     <h1> Sign Up </h1>
     
         <form>
-                First name: <br>
-                <input type="text" name="firstname"> <br>
-                Last name:<br>
-                <input type ="text" name="lastname"> <br>
-                Gender: <br>
-                <input type="radio" name="gender" value="male"> Male <br>
-                <input type="radio" name="gender" value="female"> Female <br>
-                <input type="radio" name="gender" value="other"> Other<br>
+            
+            <div class="form-group">
+            
+                <div class="col-lg-4">
+                   <label for="firstName">First name:</label>
+                   <input type="text" class="form-control" id="firstName" placeholder="First Name">
+                </div>
+                
+                <div class="col-lg-12"> <br> </div>
+                
+                <div class="col-lg-4">
+                   <label for="lastName">Last name:</label>
+                   <input type="text" class="form-control" id="lastName" placeholder="Last Name">
+                </div>
+                
+                <div class="col-lg-12"> <br> </div>
+                
+                <div class="col-lg-4">
+                
+                   <label for="gender">Gender:</label> <br>
+                
+                   <div class="radio">
+                      <label>
+                           <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+                           Male
+                      </label>
+                   </div>
+                
+                   <div class="radio">
+                      <label>
+                           <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2" checked>
+                           Female
+                      </label>
+                   </div>
+                
+                   <div class="radio">
+                      <label>
+                           <input type="radio" name="optionsRadios" id="optionsRadios3" value="option3" checked>
+                           Other
+                      </label>
+                   </div>
+                   
+                </div>
+                         
+            </div>
 
                 Username: <br>
                 <input type="text" name="username"> <br>
@@ -45,6 +87,9 @@
         
         <footer> &copy; Copyright 2016, Ashtyne Madsen &amp; Kyann Brown </footer>
     
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script
+        
     </body>
 
     
