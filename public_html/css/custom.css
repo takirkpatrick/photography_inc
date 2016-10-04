@@ -1,0 +1,29 @@
+/* I claim this file in the name of Tyler Godfrey. */
+
+body {
+	margin-top: 40px;
+}
+
+h1 {
+    font-family: Gadugi, sans-serif;
+    text-align: center;
+    font-size: 72px;
+    padding: 0px 0px 10px 0px;
+    margin: 45px auto 15px;
+    padding-bottom: 20px;
+    }
+
+footer {
+	text-align: center;
+	position: relative;
+    margin-top: 20px;
+}
+
+table {
+    text-align: center;
+}
+.image {
+    display: block;
+    margin: auto;
+    margin-bottom: 15px;
+}
