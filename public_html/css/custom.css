@@ -8,26 +8,14 @@ h1 {
     font-family: Gadugi, sans-serif;
     text-align: center;
     font-size: 72px;
-<<<<<<< HEAD
     padding: 0px 0px 10px 0px;
     margin: 45px auto 15px;
     padding-bottom: 20px;
-=======
-    border-style: solid;
-    border-width: 2px;
-    padding: 0px 0px 10px 0px;
-    margin: 45px auto 15px;
-    color: #D4B26A;
-    background-color: #191F58;
-    padding-bottom: 20px;
-    
->>>>>>> 920780da9669404824335c4e1e6a3a98581ce53a
     }
 
 footer {
 	text-align: center;
 	position: relative;
-<<<<<<< HEAD
     margin-top: 20px;
 }
 
@@ -39,10 +27,3 @@ table {
     margin: auto;
     margin-bottom: 15px;
 }
-=======
-}
-
-/*.image {
-	margin: auto;
-}*/
->>>>>>> 920780da9669404824335c4e1e6a3a98581ce53a
