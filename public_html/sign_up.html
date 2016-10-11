@@ -6,43 +6,54 @@
     <head>
         <meta charset="utf-8">
         <title> Sign Up - Photography Inc.  </title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
         <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
     </head>
     
     <body>
-
-            <nav class="menu">
-            <ul>
-            <li> <a href= "index.html"> Home </a> </li>
-            <li> <a href= "about_us.html"> About Us </a> </li>
-            <li> <a href= "camera_tutorials.html"> Camera Tutorials </a> </li>
-            <li> <a href= "hours.html"> Hours, Location, &amp; Directions </a> </li>
-            <li> <a href= "subject_ideas.html"> Subject and Location Ideas </a> </li>
-            <li> <a href= "rule_of_thirds.html"> Rule of Thirds </a> </li>
-            <li id="selected"> <a href= "sign_up.html"> Sign Up </a> </li>
-            <li> <a href= "log_in.html"> Log In </a> </li>
-            </ul>
+    <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="index.html">Photography Inc</a>
+                </div>
+               <ul class="nav navbar-nav">
+                <li> <a href= "index.html"> Home </a> </li>
+                <li> <a href= "about_us.html"> About Us </a> </li>
+                <li> <a href= "camera_tutorials.html"> Camera Tutorials </a> </li>
+                <li> <a href= "hours.html"> Hours, Location, &amp; Directions </a> </li>
+                <li> <a href= "subject_ideas.html"> Subject and Location Ideas </a> </li>
+                <li> <a href= "rule_of_thirds.html"> Rule of Thirds </a> </li>
+                <li> <a href= "log_in.html"> Log In </a> </li>
+               </ul>
+            </div>
         </nav>
+        
     <h1 id="signup"> Sign Up </h1>
 
+    <div class="container">
         <form>
-                First name: <br>
-                <input type="text" name="firstname"> <br>
-                Last name:<br>
-                <input type ="text" name="lastname"> <br>
-                Gender: <br>
-                <input type="radio" name="gender" value="male"> Male <br>
-                <input type="radio" name="gender" value="female"> Female <br>
-                <input type="radio" name="gender" value="other"> Other<br>
-
-                Username: <br>
-                <input type="text" name="username"> <br>
-                Password: <br>
-                <input type="password" name="password"> <br>
-                Confirm Password: <br>
-                <input type="password" name="confirmedPassword"> <br>
-                <input type="submit" value="Submit">
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" class="form-control" id="email" placeholder="Enter email">
+            </div>
+            <div class="form-group">
+                <label for="number">Number:</label>
+                <input type ="number" class="form-control" id="number" placeholder="Enter number">
+            </div>
+            <div class="form-group">
+                <label for="pwd">Password:</label>
+                <input type="password" class="form-control" id="pwd" placeholder="Enter password">
+            </div>
+            <div class="form-group">
+                <label for="confirmedpwd">Confirm Password:</label>
+                <input type="password" class="form-control" id="confirmedpwd" placeholder="Confirm password">
+            </div>
+            <button type="submit" class="btn btn-success btn-large">Submit</button>
         </form>
+    </div>
 
 
         

@@ -23,27 +23,13 @@ body {
     background-color: #FFE3AA;
     margin: 20px;
     padding-bottom: 60px;
-    }
-
-form {
-    border-style: solid;
-    border-width: 0px;
-    margin: auto;
-}    
+    }    
     
 a {
     font-family: Gadugi, sans-serif;
     font-size: 18px;
 }
 
-nav ul {
-    list-style-type: none;
-    margin: 0px;
-    padding: 0px;
-    overflow: hidden;
-    background-color: #191F58;
-    font-family: Gadugi, sans-serif;
-}
 
 table {
     border-color: #AA9139;
@@ -74,28 +60,7 @@ footer {
     height: 60px;
 }
 
-.menu li {
-    float: left;
-    padding: 0px;
-    color: #FFE3AA;
-    text-decoration: none;
-}
 
-.menu a {
-    float: left;
-    padding: 12px 20px;
-    color: #FFECAA;
-    background-color: #191F58;
-    text-decoration: none;
-}
-
-.menu a:hover {
-    float: left;
-    padding: 12px 20px;
-    color: #D4B26A;
-    background-color: #080D3B;
-    text-decoration: none;
-}
 
 #selected a {
     color: #D4B26A;
@@ -107,29 +72,6 @@ footer {
     width: 260px;
 }
 
-#ruleOfThirds {
-    width: 525px;
-}
-
-#aboutUs {
-    width: 360px;
-}
-
-#cameraTutorials {
-    width: 630px;
-}
-
-#hours {
-    width: 1045px;
-}
-
-#signup {
-    width: 315px;
-}
-
-#subjectIdeas {
-    width: 950px;
-}
 
 /* id */
 .image {
@@ -149,4 +91,9 @@ footer {
     text-decoration: none;
     
 
+}
+
+.below_menu_container{
+    margin-top: 60px;
+    width: auto;
 }
