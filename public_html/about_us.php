@@ -31,7 +31,8 @@
   </head>
     
     <body>
-        <?php include 'navigation.php'; ?>
+<?php include '../resources/navigation.php'; ?>
+
 
 
                 <img class="image" src="img/MadsenBrown_header.jpg" alt="Madsen-Brown Header" width="100%" />
@@ -108,7 +109,7 @@
         <img class="image" src="img/stick_people.png" alt="Stick People of Us" /> <img class="image" src="img/graduation.png" alt="Graduation" />
 
 
-    <?php include 'footer.php'; ?>
+    <?php include '..footer.php'; ?>
 
 
     </body>

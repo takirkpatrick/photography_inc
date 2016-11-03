@@ -37,7 +37,8 @@
     
     <body>
 <div style="overflow: auto; height: 45px;">
-            <?php include 'navigation.php'; ?>
+<?php include '../resources/navigation.php'; ?>
+
 
         </div>
         
@@ -53,7 +54,7 @@
         </p>
     
     
-    <?php include 'footer.php'; ?>
+    <?php include '..footer.php'; ?>
 
 
 
